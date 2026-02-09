@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nexus — Premium Editing</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            neon: '#7c7cff',
+          },
+          boxShadow: {
+            glow: '0 0 40px rgba(124,124,255,0.25)',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body class="dark bg-gradient-to-br from-black via-zinc-900 to-black text-zinc-100 font-sans">
+  <!-- Header -->
+  <header class="max-w-7xl mx-auto px-6 py-10">
+    <div class="flex items-center justify-between">
+      <h1 class="text-3xl font-bold tracking-wide">
+        <span class="text-neon">NEXUS</span>
+      </h1>
+      <a href="mailto:nexus.studio.ops@gmail.com"
+         class="px-5 py-2 rounded-xl bg-neon/10 border border-neon/30 hover:bg-neon/20 transition">
+        Contact
+      </a>
+    </div>
+  </header>
+
+  <!-- Bento Grid -->
+  <main class="max-w-7xl mx-auto px-6 pb-24">
+    <div class="grid grid-cols-1 md:grid-cols-6 gap-6">
+
+      <!-- Hero -->
+      <section class="md:col-span-4 p-8 rounded-3xl bg-zinc-900/60 border border-white/10 shadow-glow">
+        <h2 class="text-4xl font-semibold mb-4">
+          Futuristic. Precise. <span class="text-neon">Editing.</span>
+        </h2>
+        <p class="text-zinc-400 max-w-xl">
+          Nexus delivers premium, distraction-free editing with a flat-rate model.
+          No surprises. No compromises. Just clean, professional results.
+        </p>
+      </section>
+
+      <!-- Pricing -->
+      <section class="md:col-span-2 p-8 rounded-3xl bg-zinc-900/60 border border-neon/30 shadow-glow flex flex-col justify-between">
+        <div>
+          <h3 class="text-xl font-semibold mb-2">Pricing</h3>
+          <p class="text-4xl font-bold text-neon">$100</p>
+          <p class="text-zinc-400 mt-1">Flat-Rate Editing</p>
+        </div>
+        <p class="text-sm text-zinc-500 mt-6">
+          One price. Full attention. Professional polish.
+        </p>
+      </section>
+
+      <!-- Video -->
+      <section class="md:col-span-6 p-6 rounded-3xl bg-zinc-900/60 border border-white/10">
+        <h3 class="text-xl font-semibold mb-4">See Nexus in Action</h3>
+        <div class="aspect-video w-full overflow-hidden rounded-2xl border border-white/10">
+          <iframe
+            class="w-full h-full"
+            src="https://www.youtube.com/embed/dQw4w9WgXcQ"
+            title="Nexus Video"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section class="md:col-span-3 p-8 rounded-3xl bg-zinc-900/60 border border-white/10">
+        <h3 class="text-xl font-semibold mb-3">Contact Nexus</h3>
+        <p class="text-zinc-400 mb-6">
+          Ready to elevate your content? Let’s talk.
+        </p>
+        <a href="mailto:nexusediting@gmail.com"
+           class="inline-block px-6 py-3 rounded-xl bg-neon text-black font-medium hover:shadow-glow transition">
+          Email Us
+        </a>
+      </section>
+
+      <!-- Extra Bento Card -->
+      <section class="md:col-span-3 p-8 rounded-3xl bg-zinc-900/60 border border-white/10">
+        <h3 class="text-xl font-semibold mb-3">Why Nexus?</h3>
+        <ul class="space-y-2 text-zinc-400">
+          <li>• Flat pricing, no upsells</li>
+          <li>• Fast turnaround</li>
+          <li>• Clean, modern style</li>
+          <li>• Premium-level polish</li>
+        </ul>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="text-center text-zinc-500 text-sm py-8">
+    © 2026 Nexus. All rights reserved.
+  </footer>
+</body>
+    </html>
